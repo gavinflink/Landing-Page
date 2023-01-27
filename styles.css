@@ -14,7 +14,7 @@ body{
 
 
 .first-section{
-  background-color: #1f2937;
+  background-color: darkgreen;
 }
 
 #header-logo{
@@ -35,6 +35,7 @@ body{
 .navbar{
   display:flex;
   flex-direction:row;
+  background-color: salmon;
 }
 
 ul{
@@ -47,6 +48,7 @@ ul{
   width:50%;
   justify-content: center;
   align-items: center;
+  
 }
 
 h1{
@@ -87,7 +89,7 @@ img{
 }
 
 .sign-up-first-section{
-  background-color: #3882F6;
+  background-color: salmon;
   color:white;
   width: 100px;
   height: 40px;
@@ -98,7 +100,7 @@ img{
 h2{
   font-size: 36px;
   font-weight: bolder;
-  color:#1f2937;
+  color:#e5e7eb;
   text-align: center;
 }
 
@@ -112,10 +114,10 @@ h2{
 }
 
 .box-blue{
-  border:3px solid #3882F6;
+  border:3px solid salmon;
   width:200px;
   height:200px;
-  border-radius:15px;
+  border-radius:8px;
 }
 
 .second-section{
@@ -127,10 +129,11 @@ h2{
 .p-second{
   text-align: center;
   font-size: 18px;
+  color:#e5e7eb;
 }
 
 .third-section{
-  background-color: #e5e7eb;
+  background-color: darkgreen;
   height:500px;
   display: flex;
   flex-direction: column;
@@ -142,7 +145,7 @@ h3{
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  color:#1f2937;
+  color:#f9faf8;
   text-align: center;
 }
 
@@ -151,6 +154,7 @@ h3{
 .p-third{
   font-size: 18;
   text-align: end;
+  color:#f9faf8;
 }
 
 #p-div{
@@ -169,7 +173,7 @@ h3{
 }
 
 .blue-container{
-  background-color: #3882F6;
+  background-color: salmon;
   width: 75%;
   height: 40%;
   display: flex;
@@ -201,11 +205,11 @@ h4{
 
 
 .btn-last-div{
-  background-color: #3882F6;
+  background-color: salmon;
   color:white;
   width: 100px;
   height: 40px;
-  border: 1px solid #ffffff;
+  border: 1px solid lightsalmon;
   border-radius: 10px ;
 }
 
@@ -213,7 +217,11 @@ h4{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: salmon;
   color: #f9faf8;
   height: 75px;
+}
+
+body{
+  background-color: green;
 }
